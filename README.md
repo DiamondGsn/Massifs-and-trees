@@ -54,9 +54,13 @@ Post-order (Left-Right-Roo
 Build and Execution
 Compilation Options
 Basic Compilation:
+
 g++ -std=c++17 -Wall -Wextra -o search_app src/main.cpp
+
 Optimized Build:
+
 g++ -std=c++17 -O3 -march=native -o search_optimized src/main.cpp
+
 
 Runtime Options
 The program operates interactively:
